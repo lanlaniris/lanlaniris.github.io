@@ -1,8 +1,8 @@
 import React, { useState, useContext, useCallback } from 'react';
 import { StockContext } from './StockContext';
 
-// const API_KEY = 'UU2S7UCOV8ON8C9E';
-const API_KEY = 'demo';
+const API_KEY = 'UU2S7UCOV8ON8C9E';
+// const API_KEY = 'demo';
 
 function StockForm() {
   const { stocks, setStocks } = useContext(StockContext);
